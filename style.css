@@ -7,8 +7,8 @@ body {
 }
 
 .container {
-  margin: 40px auto 0 auto;
-  max-width: 80%;
+  margin: 50px auto 0 auto;
+  max-width: 90%;
   text-align: center;
 }
 
@@ -41,20 +41,13 @@ body {
   font-style: normal;
 }
 
-.counters__description {
-  max-width: 20%;
-  margin: auto;
-  display: flex;
-  font-size: 12px;
-  justify-content: space-between;
+.selections {
+  margin-top: 80px;
 }
 
-.selections {
-  margin-top: 50px;
-}
 .selections i {
   color: white;
-  font-size: 40px;
+  font-size: 35px;
   cursor: pointer;
   margin-right: 15px;
   padding: 10px;
