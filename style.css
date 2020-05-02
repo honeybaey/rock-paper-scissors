@@ -1,13 +1,57 @@
+p {
+  margin: 0;
+}
+
 body {
   background-color: #fdf5e6;
 }
 
 .container {
+  margin: 40px auto 0 auto;
   max-width: 80%;
-  margin: 0 auto;
   text-align: center;
 }
 
+.score {
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  max-width: 10%;
+  margin: 0 auto;
+  background-color: rgba(127, 165, 204, 0.2);
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding: 10px 0 10px 0;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  cursor: pointer;
+}
+
+.counters-wrapper {
+  max-width: 10%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.counters-wrapper i {
+  font-style: normal;
+}
+
+.counters__description {
+  max-width: 20%;
+  margin: auto;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.selections {
+  margin-top: 50px;
+}
 .selections i {
   color: white;
   font-size: 40px;
