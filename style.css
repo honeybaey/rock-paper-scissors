@@ -1,0 +1,27 @@
+body {
+  background-color: #fdf5e6;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.selections i {
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  margin-right: 15px;
+  padding: 10px;
+  background-color: rgba(255, 160, 122, 0.65);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.selections i:hover {
+  opacity: .8;
+}
