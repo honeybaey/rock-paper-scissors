@@ -99,6 +99,7 @@ body {
   font-size: 2.5rem;
   justify-content: space-evenly;
   background: rgba(0, 0, 0, 0.15);
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
   width: 100%;
   max-width: 650px;
   margin: 100px auto 0 auto;
@@ -110,6 +111,12 @@ body {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+}
+
+@media (max-width: 500px) {
+  .challenge {
+    font-size: 1.5625rem;
+  }
 }
 
 .challenge__user-selection,
