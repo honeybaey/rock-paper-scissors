@@ -1,1 +1,3 @@
-# rock-paper-scissors
+# Камень, ножницы, бумага
+
+    Игра с использованием чистых HTML + CSS + JavaScript
