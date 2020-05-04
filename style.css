@@ -68,11 +68,32 @@ body {
 
 .selections i {
   color: white;
-  font-size: 35px;
+.challenge {
+  font-family: 'VT323', monospace;
+  font-size: 2.5rem;
+  justify-content: space-evenly;
+  background: rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 650px;
+  margin: 100px auto 0 auto;
+  padding: 15px 0 15px 0;
+  border-radius: 50px;
+  display: none;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.challenge__user-selection,
+.challenge__computer-selection {
+  color: rgba(0, 0, 0, 0.6);
   cursor: pointer;
-  margin-right: 15px;
+  margin-right: 5px;
   padding: 10px;
-  background-color: rgba(255, 160, 122, 0.65);
+  background: radial-gradient(farthest-side ellipse at top left, white, #aaaaaa);
+  box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255,255,255,0.5);
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -80,6 +101,7 @@ body {
   -o-border-radius: 25px;
 }
 
-.selections i:hover {
-  opacity: .8;
+.challenge__result {
+  color: rgba(0, 0, 0, 0.7);
+  align-self: center;
 }
