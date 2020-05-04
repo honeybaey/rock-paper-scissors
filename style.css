@@ -3,12 +3,11 @@ p {
 }
 
 body {
-  background-color: #fdf5e6;
+  background: linear-gradient(85deg, #EECFBA, #C5DDE8);
 }
 
 .container {
-  margin: 50px auto 0 auto;
-  max-width: 90%;
+  margin: 80px auto 0 auto;
   text-align: center;
 }
 
